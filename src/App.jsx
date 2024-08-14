@@ -1,6 +1,6 @@
 import { Alert } from "./assets/components/Alert"
 import { Card } from "./assets/components/Card"
-import { Palette } from "./assets/components/Palette"
+// import { Palette } from "./assets/components/Palette"
 import { Btn } from "./assets/components/Btn"
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         <Card />
         <Card />
       </div>
-{/* 
+      {/* 
       <div className="flex flex-col gap-1">
         <Palette />
         <Palette />
