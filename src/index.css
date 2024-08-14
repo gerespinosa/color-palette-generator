@@ -10,5 +10,5 @@
 }
 
 .copied {
-    opacity: 1;
+    display: flex;
 }

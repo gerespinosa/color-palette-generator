@@ -43,7 +43,7 @@ export const Card = ({ onUpdateCode }) => {
                 className='h-56 w-48 border-0'
                 onClick={handleCode}
             ></div>
-            <h2 className='text-xl'
+            <h2 className='text-xl codetext'
                 onClick={handleCopy}>{newCode}
             </h2>
         </div>
