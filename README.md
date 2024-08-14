@@ -1,8 +1,46 @@
-# React + Vite
+# Description
+You can advise six color cards which will generate six different colours. If you click in the card, it will generate a new color, but if press 'spacebar', all six will change!
+You can quickly get the color hex code by clicking over it. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Technologies Used
 
-Currently, two official plugins are available:
+Frontend: [React] (https://reactjs.org/)
+Styles: [TailwindCSS]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Contributions
+If you want to contribute to this project, please follow these steps:
+1. Fork the repository.
+2. Create a branch for your feature or bug fix (`git checkout -b feature/new-feature`).
+3. Make your changes and commit them (`git commit -am 'Add new feature'`).
+4. Push your changes (`git push origin feature/new-feature`).
+5. Create a pull request on GitHub.
+
+# Contact
+If you have any questions or comments about the project, feel free to contact [your name] at [your email] or open an issue in the repository.
+
+Thank you for your time!
+
+<hr/>
+
+# Descripción
+Puedes ver seis tarjetas de colores que generarán seis colores diferentes. Si haces clic en una tarjeta, esta generará un nuevo color, pero si presionas la barra espaciadora, ¡todas las seis cambiarán!
+Puedes obtener rápidamente el código hexadecimal del color haciendo clic sobre él.
+
+# Tecnologías Usadas
+
+Frontend: [React](https://reactjs.org/)  
+Estilos: [TailwindCSS](https://tailwindcss.com/)
+
+# Contribuciones
+Si deseas contribuir a este proyecto, sigue estos pasos:
+1. Haz un fork del repositorio.
+2. Crea una rama para tu característica o corrección de errores (`git checkout -b feature/nueva-caracteristica`).
+3. Realiza tus cambios y confirma tus cambios (`git commit -am 'Añadir nueva característica'`).
+4. Envía tus cambios (`git push origin feature/nueva-caracteristica`).
+5. Crea un pull request en GitHub.
+
+# Contacto
+Si tienes alguna pregunta o comentario sobre el proyecto, no dudes en contactar a [tu nombre] en [tu correo electrónico] o abrir un problema en el repositorio.
+
+¡Gracias por tu tiempo!
+
