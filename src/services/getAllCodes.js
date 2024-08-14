@@ -11,5 +11,6 @@ export const getAllCodes = () => {
             alert.classList.remove('copied')
         }, 2000)
         alert.classList.add('copied')
+        return allCodesString
     });
 }

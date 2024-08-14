@@ -37,7 +37,7 @@ export const Card = ({ onUpdateCode }) => {
     }, []);
 
     return (
-        <div className='bg-white rounded-md flex flex-col justify-around items-center h-fit p-2 gap-8'>
+        <div className='bg-white rounded-md flex flex-col justify-around items-center h-fit p-2 gap-8 cursor-pointer'>
             <div
                 style={{ backgroundColor: newCode }}
                 className='h-56 w-48 border-0'
