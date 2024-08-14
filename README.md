@@ -4,8 +4,8 @@ You can quickly get the color hex code by clicking over it.
 
 # Technologies Used
 
-Frontend: [React] (https://reactjs.org/)
-Styles: [TailwindCSS]
+Frontend: [React](https://reactjs.org/)  
+Styles: [TailwindCSS](https://tailwindcss.com/)
 
 # Contributions
 If you want to contribute to this project, please follow these steps:
