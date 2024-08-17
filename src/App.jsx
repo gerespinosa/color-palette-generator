@@ -31,7 +31,7 @@ function App() {
         <Palettes />
       </div>
 
-      <div className="flex-col gap-4 justify-center items-center">
+      <div className="flex-col gap-4 justify-center flex items-center">
         <p className="hidden md:flex bg-slate-950 rounded-md text-white p-2">
           {`Press [_] to generate new codes`}
         </p>
