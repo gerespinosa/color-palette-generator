@@ -12,3 +12,16 @@
 .copied {
     display: flex;
 }
+
+.modal {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    width: 80%;
+    height: auto;
+}
+
+.modal div{
+    width: 17%;
+    height: 150px;
+}
