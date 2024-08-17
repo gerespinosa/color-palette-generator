@@ -1,7 +1,8 @@
-import { Alert } from "./assets/components/Alert"
-import { Card } from "./assets/components/Card"
-import { Palettes } from "./assets/components/Palettes"
-import { Btn } from "./assets/components/Btn"
+import { Alert } from "./assets/components/Alert";
+import { Card } from "./assets/components/Card";
+import { Palettes } from "./assets/components/Palettes";
+import { Btn } from "./assets/components/Btn";
+import { GenerateBtn } from "./assets/components/GenerateBtn";
 
 function App() {
 
@@ -12,10 +13,10 @@ function App() {
         backgroundImage: `url(https://img.freepik.com/free-photo/white-simple-textured-design-background_53876-102423.jpg?t=st=1723532275~exp=1723535875~hmac=6b201e2810df52bf5d40a2b708f0ea9f682c61c1b108f9c2205ebf6efae727fb&w=1380)`,
         backgroundSize: 'cover',
         backgroundRepeat: 'repeat',
-        backgroundPosition: 'center'
+        backgroundPosition: 'center',
       }}
     >
-      <div className="flex gap-4">
+      <div className="flex flex-wrap justify-center gap-4">
         <Card />
         <Card />
         <Card />
@@ -23,18 +24,22 @@ function App() {
         <Card />
         <Card />
       </div>
+
+      <GenerateBtn />
 
       <div id="palettes" className="flex flex-col gap-1">
         <Palettes />
       </div>
 
-      <div className="flex flex-col gap-4 justify-center items-center">
-        <p className="flex bg-slate-950 rounded-md text-white p-2">{`Press [_] to generate new codes`}</p>
+      <div className="flex-col gap-4 justify-center items-center">
+        <p className="hidden md:flex bg-slate-950 rounded-md text-white p-2">
+          {`Press [_] to generate new codes`}
+        </p>
         <Btn />
       </div>
       <Alert />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

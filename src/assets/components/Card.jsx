@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
+
 import { getCode } from "../../services/getCode";
 
 export const Card = ({ onUpdateCode }) => {
+
     const [newCode, setNewCode] = useState('#FFFFFF');
 
     const handleCode = () => {
@@ -37,15 +39,17 @@ export const Card = ({ onUpdateCode }) => {
     }, []);
 
     return (
-        <div className='bg-white rounded-md flex flex-col justify-around items-center h-fit p-2 gap-8 cursor-pointer'>
+        <div className='bg-white rounded-md flex flex-col justify-around items-center h-fit p-2 md:gap-8 cursor-pointer'>
             <div
                 style={{ backgroundColor: newCode }}
-                className='h-56 w-48 border-0'
+                className='w-12 h-12 md:h-56 md:w-48 border-0'
                 onClick={handleCode}
             ></div>
             <h2 className='text-xl codetext'
-                onClick={handleCopy}>{newCode}
+                onClick={handleCopy}>
+                {newCode}
             </h2>
         </div>
     );
 };
+
